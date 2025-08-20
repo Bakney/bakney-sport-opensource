@@ -1,0 +1,14 @@
+{
+    "toolbar": {
+        "info": "Info",
+        "personal_data": "Anagrafica",
+        "signature": "Firma",
+        "medical_certificate": "Certificato",
+        "send": "Invio"
+    },
+    "general": {
+        "fill_out_module": "Compila il seguente modulo.",
+        "fill_out_module_preregistration": "Compila il modulo per preiscriverti all'associazione sportiva.",
+        "make_login": "Accedi al tuo account o creane uno se lo desideri."
+    }
+}

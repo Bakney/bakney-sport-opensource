@@ -1,0 +1,15 @@
+{
+    "toolbar": {
+        "info": "Info",
+        "personal_data": "Personal data",
+        "family_data": "Family data",
+        "signature": "Signature",
+        "medical_certificate": "Medical certificate",
+        "send": "Send"
+    },
+    "general": {
+        "fill_out_module": "Fill out the form",
+        "fill_out_module_preregistration": "Fill out the form to pre-register to the sports association.",
+        "make_login": "Log in to your account or create one if you want."
+    }
+}

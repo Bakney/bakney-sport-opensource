@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<base href="">
+	<meta charset="utf-8" />
+	<meta name="theme-color" content="#333333">
+	<meta name="viewport" content="viewport-fit=contain, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<meta name="description" content="" />
+	<link rel="manifest" href="" />
+
+	<link lazyload rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link lazyload href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link lazyload rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+	<link lazyload rel="preconnect" href="https://fonts.googleapis.com">
+	<link lazyload href="/static/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/plugins/global/plugins.bundle.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/plugins/custom/prismjs/prismjs.bundle.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/css/style.bundle.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/css/themes/layout/header/base/light.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/css/themes/layout/header/menu/light.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/css/themes/layout/brand/light.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link lazyload href="/static/assets/css/themes/layout/aside/light.css?v=001380001" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="favicon.svg" />
+	<link rel='stylesheet' href='/global.css?v=001380001'>
+
+	<script src="/static/assets/js/charts/apexChartSettings.js?v=001380001"></script>
+	<script src="https://js.stripe.com/v3/"></script>
+	<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+
+</head>
+<body id="kt_body" class="quick-panel-right demo-panel-right offcanvas-right header-fixed header-mobile-fixed aside-enabled aside-fixed page-loading">
+	<div id="portal-elements-foreground" style="z-index: 10020;">
+	</div>
+	<div id="portal-save-foreground" style="z-index: 10010;">
+	</div>
+
+	</div>
+	<div id="portal-elements" style="z-index: 10000;">
+
+	</div>
+	<div id="drawer-elements" style="z-index: 100;">
+
+	</div>
+	<div id="view" style="width: 100%; height: 100%;">
+
+	</div>
+
+	<script>
+		window.onerror = function(event) {
+			// redirect only if a svelte error is thrown
+			if (event?.message?.includes('Cannot read property')
+				|| event?.message?.includes('SyntaxError')) {
+				window.location.href = '/error.html';
+			}
+			// Prevent the default error handling behavior
+			return true;
+		};
+		if (localStorage.getItem('userData') == 'null') localStorage.clear();
+		var KTAppSettings = {
+			"breakpoints": {
+				"sm": 576,
+				"md": 768,
+				"lg": 992,
+				"xl": 1200,
+				"xxl": 1400,
+				"xxxl": 1550,
+				"xxxxl": 1700
+			},
+			"colors": {
+				"theme": {
+					"base": {
+						"white": "#ffffff",
+						"primary": "#351DC2",
+						"secondary": "#E5EAEE",
+						"success": "#08D1AD",
+						"info": "#844AFF",
+						"warning": "#F5CE01",
+						"danger": "#FF3D60",
+						"light": "#E4E6EF",
+						"dark": "#181C32"
+					},
+					"light": {
+						"white": "#ffffff",
+						"primary": "#DEEDFF",
+						"secondary": "#EBEDF3",
+						"success": "#D6FBF4",
+						"info": "#6125E1",
+						"warning": "#FFF4DE",
+						"danger": "#FFE2E5",
+						"light": "#F3F6F9",
+						"dark": "#D6D6E0"
+					},
+					"inverse": {
+						"white": "#ffffff",
+						"primary": "#ffffff",
+						"secondary": "#3F4254",
+						"success": "#ffffff",
+						"info": "#ffffff",
+						"warning": "#ffffff",
+						"danger": "#ffffff",
+						"light": "#464E5F",
+						"dark": "#ffffff"
+					}
+				},
+				"gray": {
+					"gray-100": "#F3F6F9",
+					"gray-200": "#EBEDF3",
+					"gray-300": "#E4E6EF",
+					"gray-400": "#D1D3E0",
+					"gray-500": "#B5B5C3",
+					"gray-600": "#7E8299",
+					"gray-700": "#5E6278",
+					"gray-800": "#3F4254",
+					"gray-900": "#181C32"
+				}
+			},
+			"font-family": "Inter"
+		};
+	</script>
+
+	<script src="/static/assets/plugins/global/plugins.bundle.min.js?v=001380001"></script>
+	<script src="/static/assets/plugins/custom/prismjs/prismjs.bundle.min.js?v=001380001"></script>
+	<script src="/static/assets/js/scripts.bundle.min.js?v=001380001"></script>
+
+	<script src="/static/assets/plugins/custom/fullcalendar/fullcalendar.bundle.min.js?v=001380001"></script>
+	<script src="/static/assets/plugins/custom/tinymce/tinymce.bundle.min.js?v=001380001"></script>
+
+	<script src="/static/assets/js/pages/widgets.js?v=001380001"></script>
+
+	<script src='/static/assets/js/utils.js?v=001380001'></script>
+	<script type="module" src="/src/main.js?v=001380001"></script>
+
+	<script>
+		if ("serviceWorker" in navigator) {
+		  window.addEventListener("load", () => {
+			navigator.serviceWorker.register("/service-worker.js").then((reg) => {
+			  console.info("Service worker registered.", reg);
+			});
+		  });
+		}
+	  </script>
+</body>
+</html>

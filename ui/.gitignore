@@ -1,0 +1,22 @@
+# node modules
+/node_modules/
+
+# build
+/public/build/
+
+# cypress
+/cypress/videos
+/cypress/screenshots
+
+.DS_Store
+.vs
+
+# vite dist
+/dist
+
+/public/onboarding/videos
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "target": "es2020",
+        "paths": {
+            "utils": ["src/utils"],
+            "bkn-ui": ["src/ui"],
+            "global-store": ["src/store"],
+            "components": ["src/components"]
+        }
+    },
+    "exclude": ["node_modules", "dist", "docs", "public", "enti-sportivi", "android", "ios", "resources"]
+}

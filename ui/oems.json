@@ -1,0 +1,66 @@
+{
+    "opensource": {
+        "name": "Open Source",
+        "abbreviation": "Open Source",
+        "url": "https://www.your-domain.com",
+        "logo": "oem/opensource/brand/logo.svg",
+        "xmasLogo": "oem/opensource/brand/xmas_logo.svg",
+        "newCollaboratorIcon": "/static/smartphone_girl.png",
+        "supportEmail": "support@your-email.com",
+        "isReseller": true,
+        "supportMultipleAssociations": true,
+        "showCourseAthletes": false,
+        "showMinorExemption": true,
+        "showTutorial": true,
+        "hosts": {
+            "prod": {
+                "frontend": "https://app.your-domain.com",
+                "api": "https://app.your-domain.com/api"
+            }
+        },
+        "stripe": {
+            "pricingTable": "pricing_table_id",
+            "publicKey": "stripe_key",
+            "clientPortal": "stripe_link"
+        },
+        "meta": {
+            "title": "Open Source",
+            "description": "Open Source description",
+            "appleMobileWebAppCapable": "yes",
+            "appleMobileWebAppStatusBarStyle": "black",
+            "appleTouchIcon": "/oem/opensource/brand/logo.svg",
+            "appleMobileWebAppTitle": "Open Source",
+            "manifest": "/oem/opensource/manifest.json"
+        },
+        "displaySettings": {
+            "general": {
+                "searchBar": true,
+                "cookieConsent": true,
+                "showDemoButton": true
+            },
+            "login": {
+                "showSportAssociationCreation": true,
+                "allowOauthLogin": false,
+                "showFooterInfo": true,
+                "allowOnlyAthletes": false,
+                "showTestimonials": false,
+                "termsAndConditionsUrl": "terms_link"
+            },
+            "theme": {
+                "primaryColor": "#FF0000"
+            },
+            "navbar": {
+                "showAffiliateLink": true,
+                "showReview": true,
+                "showNotifications": true
+            },
+            "sidebar": {
+                "showPlanUpgrades": true,
+                "showPrivacyPolicy": true,
+                "showTermsOfService": true,
+                "showPreferences": true,
+                "showManual": true
+            }
+        }
+    }
+}
