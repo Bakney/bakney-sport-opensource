@@ -16,13 +16,12 @@
   </h3>
   
   <p style="color: white; margin-bottom: 12px;">
-    La versione UI rilasciata come open source è quella attualmente in produzione. Stiamo lavorando a una migrazione completa che includerà una riscrittura del codice in Svelte e shadcn/ui, che rilasceremo nei prossimi mesi.
+    La versione rilasciata come open source è la v0, quella attualmente in produzione a meno della business logic utilizzata nella versione cloud hostata da noi. Stiamo lavorando a una migrazione completa che includerà una riscrittura del codice in Svelte e shadcn/ui per la UI e miglioramenti notevoli per il backend in django, che rilasceremo nei prossimi mesi.
   </p>
   
   <ul style="color: white; margin-bottom: 12px;">
-    <li><strong>🔧 Per contribuire</strong>: fate riferimento al branch <code>ui-version-1</code></li>
-    <li><strong>⚙️ Backend</strong>: sarà rilasciato nei prossimi giorni nella cartella <code>be/</code></li>
-    <li><strong>💬 Supporto sviluppo</strong>: per configurazione locale e dubbi, contattateci su <a href="https://t.me/+Cxbg24Az1S0wMjI0" style="color:#000000;font-weight:800">Telegram</a></li>
+    <li><strong>⚙️ Backend</strong>: sarà rilasciato nelle prossime settimane nella cartella <code>be/</code></li>
+    <li><strong>💬 Supporto sviluppo</strong>: per configurazione locale e dubbi, contattateci su <a href="https://t.me/+Cxbg24Az1S0wMjI0" style="color:green;font-weight:800;background:white;border-radius:1rem;padding:0.2rem 0.4rem;margin:0.2rem;">Telegram</a></li>
     <li><strong>📚 Documentazione</strong>: attualmente essenziale, sarà ampliata presto</li>
   </ul>
   
@@ -113,7 +112,7 @@ Bakney Sport è un gestionale completo e innovativo progettato specificamente pe
 ### Struttura del Progetto
 
 ```
-bakney-sport-v0/
+bakney-sport-oss/
 ├── ui/                         # Applicazione frontend
 │   ├── src/
 │   │   ├── components/        # Componenti riutilizzabili
@@ -138,8 +137,8 @@ bakney-sport-v0/
 
 1. **Clona il repository**
    ```bash
-   git clone https://github.com/yourusername/bakney-sport-v0.git
-   cd bakney-sport-v0
+   git clone https://github.com/yourusername/bakney-sport-oss.git
+   cd bakney-sport-oss
    ```
 
 2. **Naviga nella directory UI**
@@ -161,7 +160,7 @@ bakney-sport-v0/
    npm run dev
    ```
    
-   L'applicazione sarà disponibile su `https://localhost:5173`
+   L'applicazione sarà disponibile su `https://localhost:5001`
 
 ### Build di Produzione
 
@@ -248,8 +247,8 @@ Questo progetto è rilasciato sotto licenza AGPL 3.0. Vedi il file [LICENSE](LIC
 ## 🆘 Supporto
 
 - **Documentazione**: [In preparazione]
-- **Issues**: [GitHub Issues](https://github.com/Bakney/bakney-sport-v0/issues)
-- **Discussioni**: [GitHub Discussions](https://github.com/Bakney/bakney-sport-v0/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Bakney/bakney-sport-oss/issues)
+- **Discussioni**: [GitHub Discussions](https://github.com/Bakney/bakney-sport-oss/discussions)
 - **Email**: support@bakney.com
 
 ## 🙏 Ringraziamenti
